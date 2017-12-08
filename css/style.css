@@ -1,0 +1,45 @@
+.customJumbo {
+  padding: 5rem 1rem;
+  background-color: #e9ecef;
+  border-radius: 0.5rem;
+}
+nav li{
+	display:inline;
+}
+.projectTitle{
+	font-size:300%;
+	font-family:tahoma;
+	padding-bottom:2rem;
+}
+
+#projectCarousel{
+	width:100%;
+	height:40rem;
+	padding:2rem;
+	background-color: #e9ecef;
+	border-radius:0.5em;
+}
+#projectCarousel .carousel-indicators li{
+	visibility:hidden;
+}
+#projectNav{
+	font-size:100%;
+	display:inline;
+}
+#cv{
+	line-height:10px;
+}
+.links{
+	position:absolute;
+	margin-bottom:0.6rem;
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+}
+.link{
+	position:relative;
+	display:inline-block;	
+	margin:0.2rem;
+	min-height:2rem;
+	height:2rem;
+}
