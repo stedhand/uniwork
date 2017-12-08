@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+  </head>
+  <body>
+	<div class="container">
+	  <header class="jumbotron2 text-center">
+	    <h1>Stephen Hanigan</h1>
+	    <h4>Computing Science Student - Robert Gordon University</h4>
+	  </header>
+		  <div class ="col-md-12 links">
+		    <ul>
+			  <div class ="col-md-2 link"><a href="index.html">Home</a></div> |
+			  <div class="col-md-2 link"><a href="projects.html">Projects</a></div> | 
+			  <div class="col-md-2 link"><a href="cv.html">CV</a></div> | 
+			  <div class="col-md-2 link"><a href="contact.html">Contact</a></div>
+			</ul>
+		  </div>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+		<div id="projectCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+		<!-- Indicators -->
+			<ul class="carousel-indicators">
+				<li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#projectCarousel" data-slide-to="1"></li>
+			</ul>
+
+
+    <!-- Wrapper for slides -->
+			<div class="carousel-inner">
+			
+				<div class="carousel-item active">
+					<center><div class="projectTitle">Forum Software</div></center>
+					<p>I started working on a forum project in my own time in the middle of 2015, learning HTML, PHP and Javascript to encorporate into different parts of the website. The forum was created from scratch and had the ability for: </p>
+					<ul>
+						<li>Ability to post  and respond to threads in different catagories throughout the forum, with the ability to edit and delete the posts afterwards.</li>
+						<li>Ability to view and customise their own profiles, with others also being able to see the customisations. </li>
+						<li>Ability to edit and update account information such as email address, password and username.</li>
+					</ul>	
+					<p>Some of the skills I learnt while working on the project are:</p>
+					<ul>
+						<li>Proper usage of PHP elements and how to integrate Javascript.</li>
+						<li>Proper encryption techniques such as hashing and MD5 to allow safe storage of information in an SQL database</li>
+						<li>Decent knowledge of PHP with the ability to apply it to other projects.</li>
+					</ul>	
+				</div>
+
+				<div class="carousel-item">
+					<center><div class="projectTitle">Surf Shop</div></center>
+					<p>As part of a web-development project for HNC Computing I had to design and code an e-commerce website in the theme of a surfing shop which used HTML, CSS and PHP to allow the user to order items from the store, some of the features of this project were: </p>
+					<ul>
+						<li>Ability to add or remove items with different quantities from the cart, with the total price updated.</li>
+						<li>A receipt page upon ordering the products.</li>
+						<li>Database entry for each order, including costs and quantity of item ordered.</li>
+						<li>Encrypting passwords using in-built hashing through PHP.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p id ="projectNav"><a href="#projectCarousel" style="padding-right:5rem" data-slide-to="0">Forum</a></p>
+		<p id ="projectNav"><a href="#projectCarousel" data-slide-to="1">E-commerce Website</a></p>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+	
+  </body>
+</html>
